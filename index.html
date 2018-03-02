@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>School System</title>
+    <script src="objects.js"></script>
+    <script src="data.js"></script>
+    <script src="actions.js"></script>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+</head>
+<body onload = "arrayToSelectStudent(); arrayToSelectTeacher(); arrayToSelectSection()">
+
+<h1>Deluxe School Management System 6.9</h1>
+
+<table id="table" border=”1” cellspacing=”2” cellpadding=”5”>
+    <tr>
+        <td>First Name <input class="points" id="1"></td>
+        <td>Last Name <input class="weight" id="2"></td>
+        <td>Current Grade <select id = "20">
+            <option value = "9">9th</option>
+            <option value = "10">10th</option>
+            <option value = "11">11th</option>
+            <option value = "12">12th</option>
+        </td>
+        <td><button class="button" id="9" onclick = "addStudentToSection(); arrayToSelectStudent()">Add Student</td>
+
+    </tr>
+    <tr>
+        <td>First Name<input class="points" id="4"></td>
+        <td>Last Name<input class="weight" id="5"></td>
+        <td>Current Grade <select id = "21">
+            <option value = "9">9th</option>
+            <option value = "10">10th</option>
+            <option value = "11">11th</option>
+            <option value = "12">12th</option>
+        </td>
+        <td><button class="button" id="10" onclick = "addTeacherToSection(); arrayToSelectTeacher()">Add Teacher</td>
+
+    </tr>
+    <tr>
+        <td>Type Secret <input class="points" id="6"></td>
+        <td>Section Name <input class="points" id="7"></td>
+        <td>Section Count <input class="weight" id="8"></td>
+        <td><button class="button" id="11" onclick = "addSection(); arrayToSelectSection()">Add Section </td>
+
+    </tr>
+
+</table>
+
+
+<select id = "category">
+    <option value = "0">Students</option>
+    <option value = "1">Teachers</option>
+    <option value = "2">Sections</option>
+</select>
+<button id="list" onclick = "display()">List Items</button>
+
+<select id = "deleteStudent">
+
+</select>
+
+<select id = "deleteSection">
+
+</select>
+<button id = "enterStudent" onclick = "putStudentInSection()">Add Student to Section</button>
+<select id = "changeStudent">
+
+
+
+</select>
+<select id = "changeSection">
+
+</select>
+<button id = "deleteAStudent" onclick = "deleteStudentFromASection()">Delete From Section</button>
+<select id = "putTeacherInSection">
+
+</select>
+<select id = "chooseSectionForTeacher">
+
+</select>
+<button id = "enterTeacher" onclick = "putTeacherInSection()">Add Teacher to Section</button>
+
+
+<select id = "chooseSection">
+
+</select>
+<button id ="listStudentsInSection" onclick = "listStudents()">List Students In Section</button>
+<div id = "listOfStudentsInTheSection"></div>
+
+<select id = "chooseSectionToListTeacher">
+
+</select>
+<button id ="listTeacherForSection" onclick = "listTeachers()">List Teachers In Section</button>
+<div id = "listOfTeachersInTheSection"></div>
+<select id = "chooseTeacherToDeleteFromSection">
+
+</select>
+<select id = "chooseSectionToDeleteTeacherFrom">
+
+</select>
+<button id ="deleteTeacherFromSection" onclick = "deleteTeacherFromASection()">Delete From Section</button>
+
+<div id = "listingStuff"> </div>
+<div id = "soundEffect1"></div>
+<div id = "soundEffect2"></div>
+
+
+</body>
+</html>

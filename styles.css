@@ -1,0 +1,238 @@
+h1{
+    font-size: 70px;
+    font-family:Tahoma, Geneva, sans-serif;
+    color: darkolivegreen;
+    text-align: center;
+    font-weight: normal;
+    border: double;
+    border-width: 10px;
+
+
+}
+body{
+    font-family: "American Typewriter";
+    background-color: navajowhite;
+}
+#table{
+    border: double;
+    border-width: 5px;
+    text-align: center;
+    width: 75%;
+    height: 200px;
+    position: relative;
+    top: 80px;
+    left: 12%;
+}
+
+#category{
+    position: relative;
+    margin: auto;
+    left: 44%;
+    top: 180px;
+    width: 7%;
+    height: 70px;
+    font-size: 150%;
+    background-color: white;
+
+}
+
+#list{
+    position: relative;
+    left: 44%;
+    top: 180px;
+    width: 7%;
+    height: 70px;
+    font-size: 150%;
+    border-radius: 5%;
+    background-color: lightgrey;
+}
+
+.button{
+    border-radius: 25%;
+    background-color: white;
+}
+
+#list{
+    background-color: white;
+}
+
+#listingStuff{
+    position: relative;
+    margin: auto;
+    left: 48%;
+    top: 250px;
+    font-size: 150%;
+}
+#deleteStudent{
+    margin: auto;
+    position: relative;
+    top: 180px;
+    width: 7%;
+    height: 40px;
+}
+#deleteTeacher{
+    margin: auto;
+    position: relative;
+    top: 180px;
+    width: 7%;
+    height: 40px;
+}
+#deleteSection{
+    margin: auto;
+    position: relative;
+    top: 180px;
+    width: 7%;
+    height: 40px;
+}
+#changeStudent{
+    margin: auto;
+    position: relative;
+    left: 30%;
+    top: 180px;
+    width: 7%;
+    height: 40px;
+}
+#changeTeacher{
+    margin: auto;
+    position: relative;
+    left: 30%;
+    top: 180px;
+    width: 7%;
+    height: 40px;
+}
+#changeSection{
+    margin: auto;
+    position: relative;
+    left: 30%;
+    top: 180px;
+    width: 7%;
+    height: 40px;
+}
+
+#enterStudent{
+    border-radius: 5%;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 180px;
+    width: 7%;
+    height: 40px;
+}
+#chooseSection{
+    margin: auto;
+    position: relative;
+    top: 380px;
+    width: 7%;
+    height: 40px;
+    right: 61%;
+}
+#listStudentsInSection{
+    margin: auto;
+    position: relative;
+    top: 380px;
+    width: 7%;
+    height: 40px;
+    right: 61%;
+    border-radius: 5%;
+    background-color: white;
+}
+
+#listOfStudentsInTheSection{
+    position: relative;
+    top: 430px;
+    left: 22.5%;
+}
+#soundEffect1{
+    visibility: hidden;
+}
+#soundEffect2{
+    visibility: hidden;
+}
+#deleteAStudent{
+    margin: auto;
+    position: relative;
+    left: 30%;
+    top: 180px;
+    width: 7%;
+    height: 40px;
+    border-radius: 5%;
+    background-color: white;
+}
+#putTeacherInSection{
+    margin: auto;
+    position: relative;
+    top: 280px;
+    width: 7%;
+    height: 40px;
+    right: 43%;
+}
+#chooseSectionForTeacher{
+    margin: auto;
+    position: relative;
+    top: 280px;
+    width: 7%;
+    height: 40px;
+    right: 43%;
+}
+#enterTeacher{
+    margin: auto;
+    position: relative;
+    top: 280px;
+    width: 7%;
+    height: 40px;
+    right: 43%;
+    border-radius: 5%;
+    background-color: white;
+}
+#chooseSectionToListTeacher{
+    margin: auto;
+    position: relative;
+    top: 480px;
+    width: 7%;
+    height: 40px;
+    left: 17.7%;
+}
+#listTeacherForSection{
+    margin: auto;
+    position: relative;
+    top: 480px;
+    width: 7%;
+    height: 40px;
+    left: 17.7%;
+    border-radius: 5%;
+    background-color: white;
+}
+#listOfTeachersInTheSection{
+    position: relative;
+    top: 530px;
+    left: 21.8%;
+}
+#chooseTeacherToDeleteFromSection{
+    margin: auto;
+    position: relative;
+    top: 200px;
+    width: 7%;
+    height: 40px;
+    left: 65.7%;
+}
+
+#chooseSectionToDeleteTeacherFrom{
+    margin: auto;
+    position: relative;
+    top: 200px;
+    width: 7%;
+    height: 40px;
+    left: 65.7%;
+}
+
+#deleteTeacherFromSection{
+    margin: auto;
+    position: relative;
+    top: 200px;
+    width: 7%;
+    height: 40px;
+    left: 65.7%;
+    border-radius: 5%;
+    background-color: white;
+}
+
